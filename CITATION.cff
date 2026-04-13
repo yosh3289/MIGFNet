@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "MIGFNet: Modality-Isolated Gated Fusion for Robust Multi-Modal Prostate MRI Segmentation"
+authors:
+  - family-names: Shu
+    given-names: Yongbo
+  - family-names: Xie
+    given-names: Wenzhao
+  - family-names: Yao
+    given-names: Shanhu
+  - family-names: Xin
+    given-names: Zirui
+  - family-names: Lei
+    given-names: Luo
+  - family-names: Chen
+    given-names: Kewen
+  - family-names: Luo
+    given-names: Aijing
+    email: luoaj@csu.edu.cn
+    affiliation: Central South University
+repository-code: "https://github.com/yosh3289/MIGFNet"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Architecture-Agnostic Modality-Isolated Gated Fusion for Robust Multi-Modal Prostate MRI Segmentation"
+  authors:
+    - family-names: Shu
+      given-names: Yongbo
+    - family-names: Xie
+      given-names: Wenzhao
+    - family-names: Yao
+      given-names: Shanhu
+    - family-names: Xin
+      given-names: Zirui
+    - family-names: Lei
+      given-names: Luo
+    - family-names: Chen
+      given-names: Kewen
+    - family-names: Luo
+      given-names: Aijing
+  year: 2026

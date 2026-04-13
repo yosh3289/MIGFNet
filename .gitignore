@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# PyTorch / checkpoints / tensorboard
+*.pt
+*.pth
+*.ckpt
+events.out.tfevents.*
+lightning_logs/
+
+# Large data / caches (use Zenodo/HuggingFace for distribution)
+data/
+!data/.gitkeep
+outputs/
+!outputs/.gitkeep
+cache/
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.mha
+*.nrrd
+*.dcm
+
+# nnU-Net data
+nnunet_data/
+
+# Logs
+*.log
+logs/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Secrets
+*.env
+.env.*
+secrets.yaml
+credentials.json
+*.key
+*.pem
+ghp_*.txt
+*.token
