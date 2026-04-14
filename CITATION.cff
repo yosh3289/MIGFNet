@@ -39,3 +39,9 @@ preferred-citation:
     - family-names: Luo
       given-names: Aijing
   year: 2026
+  month: 4
+  identifiers:
+    - type: other
+      value: "arXiv:2604.10702"
+      description: arXiv preprint
+  url: "https://arxiv.org/abs/2604.10702"

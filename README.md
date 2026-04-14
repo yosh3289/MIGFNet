@@ -1,5 +1,8 @@
 # MIGFNet: Modality-Isolated Gated Fusion for Robust Multi-Modal Prostate MRI Segmentation
 
+[![arXiv](https://img.shields.io/badge/arXiv-2604.10702-b31b1b.svg)](https://arxiv.org/abs/2604.10702)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Clinically significant prostate cancer (csPCa) segmentation from multi-parametric MRI using per-modality feature isolation, gated fusion, and modality-dropout training. Evaluated on the [PI-CAI](https://pi-cai.grand-challenge.org/) public dataset (1500 studies, fold-0 split: 1200 train / 300 val, human expert labels).
 
 This repository contains the official implementation for *Architecture-Agnostic Modality-Isolated Gated Fusion for Robust Multi-Modal Prostate MRI Segmentation*. It covers the MIGF module, cross-backbone integration, and the full ablation study. The companion repository [P1-picai-backbone-bench](https://github.com/yosh3289/P1-picai-backbone-bench) provides the bare-backbone benchmark that selects the starting architectures for this work.
@@ -201,9 +204,13 @@ If you use MIGFNet in your research, please cite:
 
 ```bibtex
 @article{shu2026migfnet,
-  author  = {Shu, Yongbo and Xie, Wenzhao and Yao, Shanhu and Xin, Zirui and Lei, Luo and Chen, Kewen and Luo, Aijing},
-  title   = {Architecture-Agnostic Modality-Isolated Gated Fusion for Robust Multi-Modal Prostate MRI Segmentation},
-  year    = {2026}
+  author        = {Shu, Yongbo and Xie, Wenzhao and Yao, Shanhu and Xin, Zirui and Lei, Luo and Chen, Kewen and Luo, Aijing},
+  title         = {Architecture-Agnostic Modality-Isolated Gated Fusion for Robust Multi-Modal Prostate MRI Segmentation},
+  year          = {2026},
+  eprint        = {2604.10702},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.IV},
+  url           = {https://arxiv.org/abs/2604.10702}
 }
 ```
 
