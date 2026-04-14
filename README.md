@@ -209,7 +209,7 @@ If you use MIGFNet in your research, please cite:
   year          = {2026},
   eprint        = {2604.10702},
   archivePrefix = {arXiv},
-  primaryClass  = {eess.IV},
+  primaryClass  = {cs.CV},
   url           = {https://arxiv.org/abs/2604.10702}
 }
 ```
