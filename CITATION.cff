@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite the accompanying paper."
-title: "MIGFNet: Modality-Isolated Gated Fusion for Robust Multi-Modal Prostate MRI Segmentation"
+title: "MIGFNet: Modality-Isolated Gated Fusion for Multi-Modal Prostate MRI Segmentation"
 authors:
   - family-names: Shu
     given-names: Yongbo
@@ -22,7 +22,8 @@ repository-code: "https://github.com/yosh3289/MIGFNet"
 license: MIT
 preferred-citation:
   type: article
-  title: "Architecture-Agnostic Modality-Isolated Gated Fusion for Robust Multi-Modal Prostate MRI Segmentation"
+  title: "Backbone-Conditional Behavior of Modality Gating in Multi-Modal Prostate MRI Segmentation: A 5-Fold Cross-Validation and Gate Mechanism Analysis"
+  journal: "arXiv preprint arXiv:2604.10702"
   authors:
     - family-names: Shu
       given-names: Yongbo
@@ -39,7 +40,6 @@ preferred-citation:
     - family-names: Luo
       given-names: Aijing
   year: 2026
-  month: 4
   identifiers:
     - type: other
       value: "arXiv:2604.10702"
