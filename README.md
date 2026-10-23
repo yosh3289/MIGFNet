@@ -5,7 +5,7 @@
 
 Code for modality-isolated gated fusion (MIGF) in clinically significant prostate cancer (csPCa) lesion segmentation from biparametric MRI (T2W, HBV, ADC). MIGF was evaluated with five-fold cross-validation on the public [PI-CAI](https://pi-cai.grand-challenge.org/) dataset (1500 studies) and on the external [Prostate158](https://github.com/kbressem/prostate158) dataset.
 
-> **Status (October 2026).** This README summarizes the current version of the study, *Learned Modality Gating for Prostate MRI Lesion Segmentation: Five-Fold Component Contrasts and Gate Behavior in Convolutional and State-Space Networks*. Its analysis differs from that of arXiv:2604.10702 v4 (`paper.pdf`), whose conclusions are superseded by the findings below. The repository state that accompanied v4 is kept under the tag `arxiv-v4`.
+> **Status (October 2026).** This README summarizes the current version of the study, *Learned Modality Gating for Prostate MRI Lesion Segmentation: Five-Fold Component Contrasts and Gate Behavior in Convolutional and State-Space Networks*. Its analysis differs from that of arXiv:2604.10702 v4, whose conclusions are superseded by the findings below. The repository state that accompanied v4, including its manuscript PDF, is kept under the tag `arxiv-v4`.
 
 ## Main findings
 
@@ -126,7 +126,6 @@ MIGFNet/
 |   +-- data/dataset.py           # multi-modal dataset with modality dropout
 |   +-- utils/                    # losses (incl. deep-supervision weighting), metrics
 +-- scripts/                      # training, evaluation, preprocessing, runners
-+-- paper.pdf                     # arXiv v4 manuscript (superseded)
 +-- tests/
 ```
 
