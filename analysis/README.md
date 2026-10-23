@@ -1,5 +1,10 @@
 # 5-Fold Cross-Validation and Gate-Mechanism Analysis
 
+> **Note (October 2026).** This directory documents the analysis of
+> arXiv:2604.10702 v4, which is superseded; see the top-level README for the
+> current analysis. `extract_gate_weights.py` and `gate_weights_local.json` are
+> also used in the current gate analysis.
+
 This directory holds the analysis code for the paper *"Backbone-Conditional
 Behavior of Modality Gating in Multi-Modal Prostate MRI Segmentation: A 5-Fold
 Cross-Validation and Gate Mechanism Analysis"* (the gate-mechanism study that
