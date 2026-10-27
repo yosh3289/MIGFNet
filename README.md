@@ -7,6 +7,8 @@ Code for modality-isolated gated fusion (MIGF) in clinically significant prostat
 
 > **Status (October 2026).** This README summarizes the current version of the study, *Learned Modality Gating for Prostate MRI Lesion Segmentation: Five-Fold Component Contrasts and Gate Behavior in Convolutional and State-Space Networks*. Its analysis differs from that of arXiv:2604.10702 v4, whose conclusions are superseded by the findings below. The repository state that accompanied v4, including its manuscript PDF, is kept under the tag `arxiv-v4`.
 
+> **Note added 27 October 2026.** A check made after the journal submission found that the preprocessing in `src/data/dataset.py` resamples each input (T2W, HBV, ADC, lesion mask and whole-gland mask) to the target spacing on its own grid, keeping its own origin and direction, and then crops all arrays at the same voxel indices around the gland centroid, without resampling them to a common physical reference. The channels of the cached arrays are therefore not guaranteed to be spatially co-registered. All reported results were obtained on these cached arrays. The consequences for sequence-level interpretations are being evaluated. The code is left unchanged so that the reported results remain reproducible; a corrected preprocessing will be released separately.
+
 ## Main findings
 
 Seven combinations of gating (G), deep supervision (D) and modality dropout (M) were trained in a convolutional nnU-Net-style network (105 models) and a Mamba state-space network (45 models). Each component's effect was estimated from matched configurations that differ in that component only.
